@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0.3em;
+}
+
+nav {
+  border: 2px solid blue;
+  padding: 20px;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+body {
+  font-family: "Roboto", Regular;
+  line-height: 1.2;
+  background-color: white;
+}
+
+h1 {
+  color: red;
+}
+
+.anchorbar {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+
+.links {
+  color: red;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-decoration: none;
+}
