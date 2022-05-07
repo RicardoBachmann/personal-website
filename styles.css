@@ -1,12 +1,18 @@
 * {
   box-sizing: border-box;
-  margin: 0.3em;
+  margin: 0.4em;
+}
+
+body {
+  font-family: "Roboto", Regular;
+  line-height: 1.3;
+  background-color: white;
 }
 
 nav {
   border: 2px solid red;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 0.3em;
 
   display: flex;
   flex-direction: row;
@@ -15,28 +21,31 @@ nav {
   gap: 5px;
 }
 
-body {
-  font-family: "Roboto", Regular;
-  line-height: 1.2;
-  background-color: white;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item1 {
+  width: 50%;
+  height: auto;
+}
+.item2 {
+  flex-direction: column;
+}
+.item3 {
+  flex-direction: column;
 }
 
 h1 {
   color: red;
+  margin: 0.3em;
 }
 
-.anchorbar {
-  text-align: center;
-  text-decoration: none;
-  color: red;
-}
-
-.links {
-  color: red;
-  text-align: center;
-}
-
-p {
-  font-size: 1.5em;
-  text-decoration: none;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
