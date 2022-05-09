@@ -60,9 +60,8 @@ a {
 .skillcontainer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   flex-wrap: wrap;
-  flex-basis: auto;
+
   align-items: center;
 }
 
