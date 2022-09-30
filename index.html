@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet"/> 
+    
+
     <title>Ricardo Bachmann</title>
   </head>
 
@@ -22,20 +22,16 @@
         and OSINT-Research.
       </h1>
       <nav class="anchorbar">
-        <a href="#Investigations" class="nav-btn">Investigations</a>
-        <a href="#Exhibitions" class="nav-btn">Exhibitions</a>
-        <a href="#About/CV" class="nav-btn">About/CV</a>
+        <a href="#Investigations" class="navigation-button">Investigations</a>
+        <a href="#Exhibitions" class="navigation-button">Exhibitions</a>
+        <a href="#About/CV" class="navigation-button">About/CV</a>
       </nav>
     </header>
 
     <main>
-      <section class="skillcontainer">
-        <img
-          src="https://design-zentrum-hamburg.de/site/assets/files/2549/ricardo_bachmann.500x600.webp"
-          alt="Portrait Photo"
-          class="item1"
-        />
-        <ul role="list" class="item2">
+      <section class="skill-field">
+  
+        <ul role="list" class="skill-field__informations">
           <h3>Design Toolbox:</h3>
           <li>Adobe CC (InDesign, After Effects, Photoshop)</li>
           <li>Qgis Cartography</li>
@@ -43,7 +39,7 @@
           <li>HTML + CSS + JAVA Script</li>
         </ul>
 
-        <ul role="list" class="item3">
+        <ul role="list" class="skill-field__informations">
           <h3>Interests In:</h3>
           <li>Art and Media as Political Intervention</li>
           <li>Critical Cartography</li>
@@ -52,25 +48,26 @@
         </ul>
       </section>
 
-      <section class="btncontainer">
-        <h3 class="reachout">
+      <section class="contact-field">
+        <h3>
           For more informations or collaboration feel free to reach out:
         </h3>
         <div class="buttons">
-          <a href="https://github.com/RicardoBachmann" class="btn">GitHub</a>
-          <a href="https://twitter.com/rcrdbchmnn" class="btn">Twitter</a>
-          <a href="mailto: ricardo.bachmann@mailbox.org" class="btn">Mail</a>
+          <a href="https://github.com/RicardoBachmann" class="contact-field__button">GitHub</a>
+          <a href="https://twitter.com/rcrdbchmnn" class="contact-field__button">Twitter</a>
+          <a href="mailto: ricardo.bachmann@mailbox.org" class="contact-field__button">Mail</a>
         </div>
       </section>
 
       <section>
         <h2 id="Investigations">Investigations</h2>
 
-        <h3>Visible Borders / Detroit</h3>
+        <h3>Speculators&Slumlords:Detroit,USA</h3>
+
         <img
-          src="https://play-the-system.xyz/wp-content/uploads/2021/09/PTS01-1024x683.jpg"
-          alt="Modern-day-Redlining"
-        />
+        src="https://play-the-system.xyz/wp-content/uploads/2021/09/PTS01-1024x683.jpg"
+        alt="Modern-day-Redlining"
+        class="preview-image" />
 
         <p>
           Die Abschlussarbeit von Ricardo Bachmann umfasst die Gestaltung von
@@ -94,19 +91,46 @@
         </p>
       </section>
 
-      <section4>
+
+<h3>Green Light Surveillance:Detroit,USA</h3>
+
+<img src="https://unsplash.com/photos/mVPkezDvRy8" alt="Green-Light-Surveillance-Map"
+/>
+
+<p>This investigative Web-Application deals about
+  the mass surveillance of public space in Detroit.
+  A flashing green light indicates that this location
+  is being observed by cameras with facial
+  recognition software. The interactive map
+  shows the result of the government forced
+  infrastructure and critically questions the
+  effects for the affected citizens.</p>
+
+
+
+
+
+
+
+
+      <section>
         <h2 id="Exhibitions">Exhibitions</h2>
         <dl>
           <dt>Group Exhibtions</dt>
           <dd>05/2022: 20aus21 (Design Zentrum Hamburg, HH)</dd>
           <dd>04/2022: CallMe#6 (Wartenau 16, HH)</dd>
         </dl>
-      </section4>
+      </section>
 
-      <section5>
+      <section>
         <h2 id="About/CV">About/CV</h2>
 
-        <p>
+        <img
+        src="https://design-zentrum-hamburg.de/site/assets/files/2549/ricardo_bachmann.500x600.webp"
+        alt="Portrait Photo"
+        class="portrait-photo"
+      />
+       <p>
           My Name is Ricardo, as a multi-disciplinary designer with a
           fascination for investigative aesthetics, critical cartography and
           open-source research, I see my craft as an interface between design +
@@ -138,7 +162,7 @@
             + 12/2021 till 01/2022 - Career Coaching at INQUA Coaching, Hamburg
           </dd>
         </dl>
-      </section5>
+      </section>
     </main>
     <footer>
       <small>Copyright by Ricardo Bachmann2022</small>
