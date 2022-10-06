@@ -1,78 +1,41 @@
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
-
-:root {
-  --primary-color: rgb(255, 42, 42);
-  --secondary-color: rgb(21,17,240);
-}
-
 body {
   font-family: 'IBM Plex Mono', monospace;
+
 }
 
-h1, h2{
-  font-family: 'Familjen Grotesk', sans-serif;
-}
- 
-nav {
- border: 1px solid;
- padding: 0.3rem;
- display: flex;
- justify-content: space-around;
- flex-wrap: wrap;
-}
 
-nav:hover{
-  color: var(--primary-color);
-}
-
-.navigation-button:hover{
-  font-style: italic;
-  color: var(--primary-color);
-}
-
-a {
+nav{
+  position: center;
   text-decoration-line: none;
-  color: black;
+
+
+}
+
+h1, h3 {
+  font-family: 'Familjen Grotesk', sans-serif;
 }
 
 p {
-  border: 1px solid;
-  padding: 1rem;
+  font-size: 0.9rem;
 }
 
-.buttons {
-  padding: 0.3rem;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  border: 1px solid;
+.item {
+  border: solid;
 }
 
-.buttons:hover{
-  color: var(--primary-color);
-}
+.container{
 
-.contact-field__button:hover{
-  color: var(--primary-color);
-  font-style: italic;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
 }
 
 
-
-.skill-field {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-
-}
-
-.preview-image{
-   width: 100%;
-}
-
-.portrait-photo{
-  width: 200px;
-}
+  img {
+    width: 100%;
+  }
