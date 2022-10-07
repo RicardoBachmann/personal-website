@@ -3,25 +3,48 @@
   padding: 0px;
   margin: 0px;
 }
+
+:root{
+  --primary-color: rgb(255,42,42); 
+  --secondary-color: rgb(21,17,240);
+}
+
+
 body {
   font-family: 'IBM Plex Mono', monospace;
+}
 
+header {
+  margin-top: 2rem;
+  margin-left: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 250%;
+}
+
+nav, ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  padding: 3rem;
+  text-decoration: none;
+  
+ 
 }
 
 
-nav{
-  position: center;
-  text-decoration-line: none;
 
 
-}
-
-h1, h3 {
+h1  {
   font-family: 'Familjen Grotesk', sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color);
 }
 
 p {
   font-size: 0.9rem;
+  color:var(--primary-color);
 }
 
 .item {
